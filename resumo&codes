@@ -1,1 +1,15 @@
-Git e um sistema de controle de versão(versionamento), utilizado para controlar o historico de alterações de arquivos e de projetos, muito útil para que várias pessoas possam desenvolver os mesmos projetos simultaneamente sem o risco das alterações serem subscritas, permitindo flexibilidade do fluxo de trabalho, compartilhamento de codigos, segurança e desempenho.
+Git e um sistema de controle de versão(versionamento), utilizado para controlar o historico de alterações de arquivos e de projetos, muito útil para que 
+várias pessoas possam desenvolver os mesmos projetos simultaneamente sem o risco das alterações serem subscritas, permitindo flexibilidade do fluxo de 
+trabalho, compartilhamento de codigos, segurança e desempenho.
+
+O git é composto por camadas para armazenar e gerenciar os conteudos do projeto, o repositorio é uma unidade de armazenamento geral que contem várias branches,
+a branch é uma unidade de armazenamento que contem arquivos e pastas que compoem o conjunto de conteudo do projeto(branch pode ser visto como versões do arq).
+
+git init -> inicializa um repositorio em um diretorio
+git clone [url] -> cria uma copia local de um repositorio existeste
+git add [arquivo] -> adc o arq especificado a uma area de preparação, deixando pronto pra ser commitado
+git commit -m "msg" -> Registra as alterações no repositorio
+git status -> exibe status repositorio
+git push -> envia as alterações locais para o repo.. remoto
+git pull -> atualiza o repo.. local com as alterações do repo.. remota
+
