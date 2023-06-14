@@ -12,4 +12,8 @@ git commit -m "msg" -> Registra as alterações no repositorio
 git status -> exibe status repositorio
 git push -> envia as alterações locais para o repo.. remoto
 git pull -> atualiza o repo.. local com as alterações do repo.. remota
-
+git brach -> lista todas as branch do repo.. local
+git merge -> condensa 2 branches em 1
+git log -> exibe o historico de commits do repo.. , o autor, data criacao e msg de commit
+git config --global user.email "you@example.com" -> definir usuario que esta executando
+git config --global user.name "Your Name" -> definir usuario que esta executando
