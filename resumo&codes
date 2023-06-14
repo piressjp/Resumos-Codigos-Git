@@ -17,3 +17,5 @@ git merge -> condensa 2 branches em 1
 git log -> exibe o historico de commits do repo.. , o autor, data criacao e msg de commit
 git config --global user.email "you@example.com" -> definir usuario que esta executando
 git config --global user.name "Your Name" -> definir usuario que esta executando
+git branch [nome] -> cria branch
+git branch -D [nome] -> deleta a branch
