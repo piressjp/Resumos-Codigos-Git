@@ -19,3 +19,6 @@ git config --global user.email "you@example.com" -> definir usuario que esta exe
 git config --global user.name "Your Name" -> definir usuario que esta executando
 git branch [nome] -> cria branch
 git branch -D [nome] -> deleta a branch
+git commit --amend -m "texto" -> altera a mensagem do commit
+git reflog -> mostra uma lista ordenada dos commits realizados
+git reset --soft (hash do commit) -> volta o ambiente de sua branch para o hash informado  
